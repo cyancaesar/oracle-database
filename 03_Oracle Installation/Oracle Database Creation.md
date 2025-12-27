@@ -86,4 +86,3 @@ DROP DATABASE;
 - When creating a database for a specific application, consult the vendor for the requirements
 - Do not ignore the documentation and document everything
 - Stick with the policies
-

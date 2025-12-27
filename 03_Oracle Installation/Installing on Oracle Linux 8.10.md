@@ -3,7 +3,7 @@ Add  these entries to `/home/oracle/.bash_profile`
 ```sh
 export ORACLE_BASE=/u01/app/oracle
 export ORACLE_HOME=$ORACLE_BASE/product/19.0.0/db_1
-export ORALCE_SID=oradb
+export ORACLE_SID=oradb
 export NLS_DATE_FORMAT="DD-MON-YYYY HH24:MI:SS"
 export PATH=$PATH:$ORACLE_HOME/bin
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$ORACLE_HOME/oracm/lib:/lib/:/usr/lib:/usr/local/lib
