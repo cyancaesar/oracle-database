@@ -16,7 +16,7 @@ export CV_ASSUME_DISTID=OEL7.6
 umask 022
 ```
 
-Disable SELinux:
+~~Disable SELinux:~~
 
 ```sh
 vim /etc/selinux/config
@@ -24,6 +24,10 @@ vim /etc/selinux/config
 
 setenforce 0 # or reboot the system
 ```
+
+
+> [!danger] Disabling SELinux? For real?
+> You're making Dan Walsh angry for that action.
 
 Download Oracle Database 19c for Linux, its a ZIP file with the name `LINUX.X64_193000_db_home.zip`.
 
